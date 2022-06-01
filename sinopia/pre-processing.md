@@ -1,4 +1,4 @@
-The original Sinopia data is close to being converted natively because it follows the BIBFRAME ontology.
+The original Sinopia data are close to being converted natively because it follows the BIBFRAME ontology.
 
 There are a few places where we may want to pre-process labels that the current BIBFRAME namespace used in the RDF Syntax processing tool is not interpreting. 
 
