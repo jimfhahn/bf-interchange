@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
+  xmlns:bflc="http://id.loc.gov/ontologies/bflc/" xmlns:mads="http://www.loc.gov/mads/rdf/v1#"
+  xmlns:rdau="http://rdaregistry.info/Elements/u/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sinopia="http://sinopia.io/vocabulary/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n79007751">
+    <rdfs:label xml:lang="en">New York (N.Y.)</rdfs:label>
+  </rdf:Description>
+  <bf:Agent rdf:about="http://id.loc.gov/authorities/names/no2013021053">
+    <rdfs:label xml:lang="en">Norwood House Press</rdfs:label>
+  </bf:Agent>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/carriers/nc">
+    <rdfs:label xml:lang="en">volume</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/menclvl/f">
+    <rdfs:label>full</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/organizations/cst">
+    <rdfs:label xml:lang="en">Stanford University</rdfs:label>
+  </rdf:Description>
+  <bf:Instance
+    rdf:about="https://api.stage.sinopia.io/resource/3d669ce1-9997-42e1-939e-8f648cd6a115">
+    <bf:adminMetadata>
+      <bf:AdminMetadata>
+        <bflc:catalogerId>RJRohrbacher</bflc:catalogerId>
+        <bflc:encodingLevel rdf:resource="http://id.loc.gov/vocabulary/menclvl/f"/>
+        <bf:creationDate>2022-04-15</bf:creationDate>
+        <bf:descriptionAuthentication rdf:resource="https://id.loc.gov/vocabulary/marcauthen/pcc"/>
+        <bf:descriptionConventions
+          rdf:resource="https://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+        <bf:descriptionLanguage rdf:resource="https://id.loc.gov/vocabulary/languages/eng"/>
+        <bf:source rdf:resource="http://id.loc.gov/vocabulary/organizations/cst"/>
+      </bf:AdminMetadata>
+    </bf:adminMetadata>
+    <bf:carrier rdf:resource="http://id.loc.gov/vocabulary/carriers/nc"/>
+    <bf:dimensions xml:lang="en">21 cm</bf:dimensions>
+    <bf:extent>
+      <bf:Extent>
+        <rdfs:label xml:lang="en">31 pages</rdfs:label>
+      </bf:Extent>
+    </bf:extent>
+    <bf:identifiedBy>
+      <bf:Isbn>
+        <bf:qualifier xml:lang="en">hardcover</bf:qualifier>
+        <rdf:value xml:lang="en">9781684508006</rdf:value>
+      </bf:Isbn>
+    </bf:identifiedBy>
+    <bf:identifiedBy>
+      <bf:Isbn>
+        <bf:qualifier xml:lang="en">paperback</bf:qualifier>
+        <rdf:value xml:lang="en">978168047109</rdf:value>
+      </bf:Isbn>
+    </bf:identifiedBy>
+    <bf:identifiedBy>
+      <bf:Lccn>
+        <rdf:value xml:lang="en">2021049939</rdf:value>
+      </bf:Lccn>
+    </bf:identifiedBy>
+    <bf:identifiedBy>
+      <bf:Local>
+        <bf:source>
+          <bf:Source>
+            <rdfs:label xml:lang="en">OCLC</rdfs:label>
+          </bf:Source>
+        </bf:source>
+        <rdf:value xml:lang="en">1286676680</rdf:value>
+      </bf:Local>
+    </bf:identifiedBy>
+    <bf:instanceOf
+      rdf:resource="https://api.stage.sinopia.io/resource/eefaa9d0-3bac-4827-87fc-1e01f9b29904"/>
+    <bf:issuance rdf:resource="https://id.loc.gov/vocabulary/issuance/mono"/>
+    <bf:media rdf:resource="https://id.loc.gov/vocabulary/mediaTypes/n"/>
+    <bf:provisionActivity>
+      <bf:Publication>
+        <bf:agent rdf:resource="http://id.loc.gov/authorities/names/no2013021053"/>
+        <bf:date xml:lang="en">2022</bf:date>
+        <bf:place rdf:resource="http://id.loc.gov/authorities/names/n79007751"/>
+      </bf:Publication>
+    </bf:provisionActivity>
+    <bf:provisionActivityStatement xml:lang="en">[New York] : Norwood House Press,
+      [2022]</bf:provisionActivityStatement>
+    <bf:responsibilityStatement xml:lang="es">por Mary Lindeen</bf:responsibilityStatement>
+    <bf:seriesStatement xml:lang="en">A beginning-to-read book</bf:seriesStatement>
+    <bf:seriesStatement xml:lang="es">Sentimientos importantes</bf:seriesStatement>
+    <bf:title>
+      <bf:Title>
+        <bf:mainTitle xml:lang="es">Sentirse enojado</bf:mainTitle>
+      </bf:Title>
+    </bf:title>
+    <sinopia:hasResourceTemplate>pcc:bf2:Monograph:Instance</sinopia:hasResourceTemplate>
+    <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Print"/>
+  </bf:Instance>
+  <rdf:Description
+    rdf:about="https://api.stage.sinopia.io/resource/eefaa9d0-3bac-4827-87fc-1e01f9b29904">
+    <rdfs:label xml:lang="en">Feeling angry. Spanish</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://id.loc.gov/vocabulary/descriptionConventions/rda">
+    <rdfs:label xml:lang="en">Resource Description and Access</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://id.loc.gov/vocabulary/issuance/mono">
+    <rdfs:label xml:lang="en">Single unit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://id.loc.gov/vocabulary/languages/eng">
+    <rdfs:label xml:lang="en">English</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://id.loc.gov/vocabulary/marcauthen/pcc">
+    <rdfs:label xml:lang="en">Program for Cooperative Cataloging</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://id.loc.gov/vocabulary/mediaTypes/n">
+    <rdfs:label xml:lang="en">unmediated</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
